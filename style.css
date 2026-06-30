@@ -5,52 +5,144 @@
 }
 
 body{
-    font-family:Arial, sans-serif;
-    background:#0f172a;
-    color:#fff;
-}
-
-header{
-    background:#111827;
-    padding:20px;
-    text-align:center;
-}
-
-header h1{
-    font-size:32px;
-    color:#00d4ff;
-}
-
-header p{
-    margin-top:10px;
-    color:#ccc;
+    font-family:Arial,sans-serif;
+    background:#0d1117;
+    color:#ffffff;
+    line-height:1.7;
 }
 
 .container{
     width:90%;
     max-width:1100px;
     margin:auto;
-    padding:40px 20px;
+}
+
+header{
+    background:#161b22;
+    padding:25px;
+    text-align:center;
+    border-bottom:2px solid #00c8ff;
+}
+
+header h1{
+    font-size:36px;
+    color:#00c8ff;
+}
+
+header p{
+    color:#b8c1cc;
+    margin-top:8px;
+}
+
+nav{
+    margin-top:20px;
+}
+
+nav a{
+    color:#ffffff;
+    text-decoration:none;
+    margin:0 12px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#00c8ff;
+}
+
+.hero{
+    text-align:center;
+    padding:70px 20px;
+}
+
+.profile{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid #00c8ff;
+    margin-bottom:25px;
+}
+
+.hero h2{
+    font-size:34px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    color:#cccccc;
+    max-width:700px;
+    margin:auto;
 }
 
 .btn{
     display:inline-block;
-    margin-top:20px;
-    padding:12px 24px;
-    background:#00d4ff;
+    margin-top:30px;
+    padding:12px 30px;
+    background:#00c8ff;
     color:#000;
     text-decoration:none;
-    border-radius:8px;
+    border-radius:30px;
     font-weight:bold;
 }
 
 .btn:hover{
-    background:#00aacc;
+    background:#00a8d6;
+}
+
+section{
+    padding:70px 20px;
+}
+
+section h2{
+    text-align:center;
+    margin-bottom:30px;
+    color:#00c8ff;
+}
+
+.service-box{
+    background:#161b22;
+    padding:20px;
+    margin:15px 0;
+    border-radius:12px;
+    text-align:center;
+    transition:.3s;
+}
+
+.service-box:hover{
+    transform:translateY(-5px);
+    background:#1f2937;
+}
+
+.contact{
+    text-align:center;
 }
 
 footer{
+    background:#161b22;
     text-align:center;
     padding:20px;
-    background:#111827;
     color:#999;
+    border-top:2px solid #00c8ff;
+}
+
+@media(max-width:768px){
+
+header h1{
+    font-size:28px;
+}
+
+.hero h2{
+    font-size:28px;
+}
+
+.profile{
+    width:150px;
+    height:150px;
+}
+
+nav a{
+    display:block;
+    margin:10px 0;
+}
+
 }
